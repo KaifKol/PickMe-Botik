@@ -7,7 +7,7 @@ class PingCommand(commands.Cog):
 
     @commands.slash_command()
     async def ping(self, inter: disnake.ApplicationCommandInteraction):
-        await inter.response.send_message(f"Понг! {round(self.bot.latency * 1000)}мс")
+        await inter.response.send_message(f"Задержка （＞人＜；） {round(self.bot.latency * 1000)}мс")
 
 def setup(bot: commands.Bot):
     bot.add_cog(PingCommand(bot))
