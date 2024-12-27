@@ -1,1 +1,2 @@
 primary = 0xFFC0CB
+purple = 0x9d00ff
