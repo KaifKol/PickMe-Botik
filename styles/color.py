@@ -1,2 +1,3 @@
 primary = 0xFFC0CB
 purple = 0x9d00ff
+lightblue = 0x90d5ff
