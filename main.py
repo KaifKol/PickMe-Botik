@@ -4,9 +4,10 @@ import os
 from dotenv import load_dotenv
 load_dotenv() 
 
+intents = disnake.Intents.default()
 
 #TODO: начальная настройка
-bot = commands.Bot(command_prefix="?", sync_commands=True)
+bot = commands.Bot(command_prefix=commands.when_mentioned, intents=intents)
 bot.remove_command("help")
 
 #TODO: действия при запуске
