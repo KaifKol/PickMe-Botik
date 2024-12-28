@@ -41,7 +41,7 @@ def setup(bot: commands.Bot):
     
 #     clearembed = disnake.Embed(
 #         title=f"Покааа!!! - {len(count_deleted)-1} сообщений  ╰(*°▽°*)╯",
-#         color=0xFFC0CB
+#         color=color.primary
 #     )
 
 #     await interaction.channel.send(embed=clearembed, delete_after=3)

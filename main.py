@@ -4,8 +4,9 @@ import os
 from dotenv import load_dotenv
 load_dotenv() 
 
+
 #TODO: начальная настройка
-bot = commands.Bot(command_prefix="?")
+bot = commands.Bot(command_prefix="?", sync_commands=True)
 bot.remove_command("help")
 
 #TODO: действия при запуске
@@ -26,8 +27,10 @@ async def on_ready():
 #TODO: чистить
 bot.load_extension("commands.clear")
 
-#TODO: 
+#TODO: пинг
+bot.load_extension("commands.ping")
 
+#TODO: 
     
 #TODO: запуск
 bot.run(os.getenv("DISCORD_TOKEN"))

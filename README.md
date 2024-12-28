@@ -1,21 +1,21 @@
 # PickMe Botik 🤖
 
-**About the Bot**  
-PickMe Botik is a custom Discord bot personally crafted for my server. Its main purpose is to assist with various tasks, such as chat cleaning and more. Despite its simplicity, it gets the job done efficiently!
+**О боте**  
+PickMe Botik — это кастомный бот для Discord, созданный лично для моего сервера. Его задача — помогать с разными задачами, такими как очистка чата и не только. Несмотря на свою простоту, он отлично справляется со своими функциями!
 
-**How It Was Made**  
-- Built in just 5 minutes!  
-- Written in **Python**.  
-- Uses the following libraries:  
-  - **Disnake** for seamless Discord integration.  
-  - **Python-dotenv** for managing environment variables.
+**Как он был создан**  
+- Сделан всего за 5 минут!  
+- Написан на **Python**.  
+- Использует следующие библиотеки:  
+  - **Disnake** для интеграции с Discord.  
+  - **Python-dotenv** для работы с переменными окружения.
 
-**Features**  
-- 💬 Chat cleaning commands.  
-- ⚡ Lightweight and fast.  
-- 🛠️ Custom functionality tailored for my server's needs.
+**Функции**  
+- 💬 Команды для очистки чата.  
+- ⚡ Лёгкий и быстрый.  
+- 🛠️ Уникальный функционал, созданный под нужды моего сервера.
 
-**Fun Fact**  
-Even though it's a quick creation, PickMe Botik has become an integral part of the server!
+**Интересный факт**  
+Несмотря на то, что бот был сделан "на коленках", он стал важной частью сервера!
 
-> 🖥️ Made with love and some quick coding skills.  
+> 🖥️ Сделано с любовью и минимальными усилиями.  
