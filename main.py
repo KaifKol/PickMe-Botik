@@ -1,5 +1,8 @@
 import disnake
 from disnake.ext import commands
+
+from datetime import datetime
+
 import os
 from dotenv import load_dotenv
 load_dotenv() 
@@ -13,7 +16,8 @@ bot.remove_command("help")
 #TODO: действия при запуске
 @bot.event
 async def on_ready():
-    print("Я запущена!!! ^_^")
+    launch_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    print(f"Я запущена!!! ^_^ Время запуска: {launch_time}")
 
     activity = disnake.Activity(
         name="Я ПИКМИ!!! (｡･∀･)ﾉﾞ",
