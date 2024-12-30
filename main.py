@@ -35,7 +35,8 @@ bot.load_extension("commands.clear")
 #TODO: пинг
 bot.load_extension("commands.ping")
 
-#TODO: 
+#TODO: погода
+bot.load_extension("commands.weather")
     
 #TODO: запуск
 bot.run(os.getenv("DISCORD_TOKEN"))
