@@ -25,9 +25,9 @@ PickMe Botik — это кастомный бот для Discord, созданн
 2. Установите необходимые библиотеки:
    ```bash
    pip install disnake python-dotenv requests
-3. Введите токены.
-   ```
-   DISCORD_TOKEN = Токен бота
-   WEATHER_API = Токен погоны
+3. Введите токены в .env файл.
+   ```json
+   DISCORD_TOKEN = "Токен бота"
+   WEATHER_API = "Токен погоны"
 4. Запустите.
 5. Играйтесь.

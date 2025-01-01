@@ -7,10 +7,10 @@ import os
 from dotenv import load_dotenv
 load_dotenv() 
 
-intents = disnake.Intents.default()
+intents = disnake.Intents.all()
 
 #TODO: начальная настройка
-bot = commands.Bot(command_prefix=commands.when_mentioned, intents=intents)
+bot = commands.Bot(command_prefix=commands.when_mentioned, intents=intents, reload=True)
 bot.remove_command("help")
 
 #TODO: действия при запуске

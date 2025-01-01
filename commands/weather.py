@@ -17,7 +17,7 @@ class WeatherCommand(commands.Cog):
 
     @commands.slash_command(description="Узнать текущую погоду в указанном городе. (Работает хуево)")
     async def weather(interaction: disnake.ApplicationCommandInteraction, city: str):
-        await interaction.response.defer()  # Отложенный ответ
+        await interaction.response.defer()
 
         API_KEY = os.getenv("WEATHER_API")
         BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
@@ -33,7 +33,7 @@ class WeatherCommand(commands.Cog):
             response.raise_for_status()
             data = response.json()
 
-            if data.get("cod") == "404":
+            if data.get("code") == "404":
                 await interaction.followup.send(f"Город '{city}' не найден. Попробуйте указать точное название.")
                 return
 
